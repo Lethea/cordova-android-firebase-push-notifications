@@ -1,0 +1,16 @@
+nodejs 
+java
+android sdk 25
+npm -g install cordova
+cordova create samplepush com.samplepush.app
+
+register https://console.firebase.google.com
+
+create project
+add android with package name
+
+add downloaded file to the project folder
+
+run cordova plugin add cordova-plugin-firebase@0.1.24 --save
+
+cordova platform add android
